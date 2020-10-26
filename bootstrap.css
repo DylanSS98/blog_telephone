@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)
+}
+
+.navbar {
+    background-color: rgb(5, 5, 46);
+    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)
+}
+

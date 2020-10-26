@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)
+}
+
+.navbar {
+    background-color: rgb(5, 5, 46);
+    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)
+}
+
+.container{
+    max-width: 1200px;
+    max-height: 1500px;
+   
+}
+
+.container h1{
+
+    text-align: center;
+    text-decoration: solid black 1px;
+    font-size: 5em;
+    margin-top: 1em;
+
+
+} 
+
+.carousel {
+  box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)  
+}
+
+

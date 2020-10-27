@@ -21,12 +21,52 @@
 
     text-align: center;
     text-decoration: solid black 1px;
-    font-size: 5em;
+	font-size: 5em;
+	font-family: Adobe Hebrew, sans-serif;
     margin-top: 1em;
 } 
 
 .carousel {
   box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)  
+}
+
+h2{
+	text-align: center;
+	padding-top: 3em;
+}
+
+/*------------Couverture article------------*/
+.container2{
+    max-width: 1550px;
+    margin: 10em auto 0;
+}
+
+.jumbotron {
+	background-image: url(imgpro/A_la_une.jpg);
+	background-repeat: no-repeat;
+	padding: 100px;
+	margin-bottom: 0;
+}
+
+.containerArt{
+	max-width: 1850px;	
+}
+
+.article h3{
+	color: rgb(39, 204, 245);
+	font-family: Adobe Hebrew, sans-serif;
+}
+
+.article p{
+	color: rgba(29, 131, 156, 0.979);
+}
+
+/*-------------Ensemble des articles-------------*/
+
+.articles{
+	max-height: 1700px;
+	margin: 0;
+
 }
 
 /*essaie footer: https://codepen.io/umidbek96/pen/rNavBEx */

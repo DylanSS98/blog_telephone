@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,14 +19,14 @@
 <body>
   <header>
     <div class="header">
-      <img src="imgpro/headerphone.jpg" alt="Responsive image">
+      <img src="imgpro/headerphone.jpg" class="couverture" alt="Responsive image">
     </div>
 
     </div>
   </header>
 
   <nav class="navbar navbar-dark ">
-    <!----------------- Navbar contenue ------------------>
+    <!---------------------------------------------------- Navbar contenue -------------------------------------->
     <a class="navbar-brand"></a>
 
 
@@ -79,13 +80,13 @@
 
   </nav>
 
-  <!---------------------Conteneur---------------->
+  <!-----------------------------------------------------------Conteneur------------------------------------------------>
   <div class="container">
 
     <h1>Mobiles</h1>
 
     <!-----------------carousel------------------->
-
+<div class="centrerCarousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -113,39 +114,122 @@
       </a>
     </div>
   </div>
-
+</div>
   <h2>BLABlabla</h2>
   <!--Crée un truc du genre "a la une" conteant plusieurs article-->
-  <div class="container2">
-    <div class="jumbotron jumbotron-fluid">
-      <div class="containerArt">
-        <div class="article">
-          <h3 class="display-4">A la une:</h3>
-          <p class="lead">Retrouver toute l'actualité des téléphones mobiles.</p>
+  <div class="container2 col-md-4 ml-auto">
+   
+      <div class="jumbotron jumbotron-fluid">
+        <div class="containerArt">
+          <div class="article">
+            <h3 class="display-4">A la une:</h3>
+            <p class="lead">Retrouver toute l'actualité des téléphones mobiles.</p>
+          </div>
+        </div>
+      </div> 
+
+      <div class="d-flex justify-content-start">
+      <!-------------1er article---------------------->
+      <div class="articles">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-----------2e article------------------------->
+      <div class="articles">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-----------3e article------------------------->
+      <div class="articles">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-    </div>
-    <!-------------1er article---------------------->
-    <div class="articles">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="..." class="card-img" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+  </div>
+  <!-----------4e article------------------------->
+  <div class="d-flex bd-highlight">
+
+  <div class="articles  w-100 bd-highlight">
+    <div class="card mb-3" style="max-width: 1000px;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!-----------5e article------------------------->
+
+  <div class="articles flex-shrink-1 bd-highlight">
+    <div class="card mb-3" style="max-width: 940px;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+      <!-----------fin article------------------------->
+  
   </div>
   <!--ESSAIE FOOTER:  https://www.freelancer.in/contest/Need-html-css-expert-to-design-a-footer-for-my-website-1652542-byentry-32244725?w=f&ngsw-bypass=# -->
 
@@ -156,7 +240,7 @@
       </div>
 
 
-      <!----------- Footer ------------>
+      <!------------------------------------------------------- Footer ----------------------------------------------->
       <footer class="footer-bs d-flex flex-nowrap bd-highlight">
         <div class="row">
           <!--Probleme a résoudre : mettre en position relative-->
@@ -165,7 +249,7 @@
           </div>
           <!---->
           <div class=" col-md-2 order-1 p-2 bd-highlight footer-brand animated fadeInLeft ">
-            <h2>Logo</h2> <!-- metre en position absolute-->
+            <h3 class="titreLog">Logo</h3> <!-- metre en position absolute-->
             <p> La consultation de ce site est optimale avec Microsoft Internet Explorer 11 ou versions
               ultérieures, et/ou les versions les plus récentes des navigateurs Google Chrome ou Mozilla Firefox.</p>
             <p>© 2014 BS3 UI Kit,Tous droits réservés. </p>

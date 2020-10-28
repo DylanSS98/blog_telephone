@@ -1,17 +1,27 @@
 * {
-    margin: 0;
+	margin: 0;
+	 ;
 }
 
+body {
+    margin: 0;
+	padding: 0;
+	max-width: 100% ;
+}
+/*----------HEADER------------------*/
 .header{
-    display: flex;
-    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)
+	box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
+	
+}
+.couverture{
+	max-width: 100% ;
 }
 
 .navbar {
     background-color: rgb(5, 5, 46);
     box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)
 }
- 
+ /*----------------BODY-------------------*/
 .container{
     max-width: 1200px;
     max-height: 1500px;   
@@ -25,27 +35,41 @@
 	font-family: Adobe Hebrew, sans-serif;
     margin-top: 1em;
 } 
+/*-------Carousel-------*/
 
+.centrerCarousel{
+
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 .carousel {
-  box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)  
+  box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);  
 }
 
 h2{
 	text-align: center;
-	padding-top: 3em;
+	padding: 3em;
 }
 
-/*------------Couverture article------------*/
+/*----Couverture article-----*/
 .container2{
-    max-width: 1550px;
-    margin: 10em auto 0;
+	max-width: 90% ;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 .jumbotron {
 	background-image: url(imgpro/A_la_une.jpg);
 	background-repeat: no-repeat;
 	padding: 100px;
+
 	margin-bottom: 0;
+	
 }
 
 .containerArt{
@@ -61,7 +85,7 @@ h2{
 	color: rgba(29, 131, 156, 0.979);
 }
 
-/*-------------Ensemble des articles-------------*/
+/*-----Ensemble des articles-------------*/
 
 .articles{
 	max-height: 1700px;
@@ -144,6 +168,6 @@ h2{
 }
 
 
-h2{
-	padding-top: 0;
+.titreLog{
+	text-align: center;
 }

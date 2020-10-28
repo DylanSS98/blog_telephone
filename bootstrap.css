@@ -7,7 +7,7 @@ body {
     margin: 0;
 	padding: 0;
 	max-width: 100% ;
-	background-color: rgba(235, 238, 241, 0.308);
+	background-color: rgba(235, 238, 241, 0.205);
 }
 /*----------HEADER------------------*/
 .header{
@@ -62,14 +62,16 @@ h2{
 	margin-right: auto;
 	display: flex;
 	flex-direction: column;
+	background-color: rgb(255, 255, 255);
 }
 
 .jumbotron {
 	background-image: url(imgpro/A_la_une.jpg);
+	max-width: 100% ;
 	background-repeat: no-repeat;
 	padding: 100px;
 
-	margin-bottom: 0;
+	
 	
 }
 
@@ -92,7 +94,6 @@ h2{
 	max-height: 1700px;
 	margin: 0;
 	padding: 0;
-	
 
 }
 

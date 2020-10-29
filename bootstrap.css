@@ -1,7 +1,4 @@
-* {
-	margin: 0;
-	 ;
-}
+* {margin: 0;}
 
 body {
     margin: 0;
@@ -10,11 +7,10 @@ body {
 	background-color: rgba(235, 238, 241, 0.205);
 }
 /*----------HEADER------------------*/
-.header{
-	box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
+.header{ box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);}
 	
-}
-
+.logo{ height: 70px;}
+	
 .navbar {
     background-color: rgb(5, 5, 46);
 	box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
@@ -37,18 +33,23 @@ body {
 /*-------Carousel-------*/
 
 .centrerCarousel{
-
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
 
-}
-.carousel {
-  box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);  
-}
+.carousel { box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);  }
 
 h2{
 	text-align: center;
+	padding-top: 3em;
+}
+
+.text p{
+	
+	text-align: justify;
+	margin-left: 15em;
+	margin-right: 15em;
 	padding: 3em;
 }
 
@@ -69,19 +70,15 @@ h2{
 	padding: 100px;	
 }
 
-.containerArt{
-	max-width: 1850px;	
-}
-
+.containerArt{ max-width: 1850px;}	
+	
 .article h3{
 	color: rgb(39, 204, 245);
 	font-family: Adobe Hebrew, sans-serif;
 }
 
-.article p{
-	color: rgba(29, 131, 156, 0.979);
-}
-
+.article p{ color: rgba(29, 131, 156, 0.979);}
+	
 /*-----Ensemble des articles-------------*/
 
 .card{
@@ -90,9 +87,7 @@ h2{
   }
 /*------Articles 1,2 et 3-------*/
 
-.artDebut img{
-	height: 350px;
-}
+.artDebut img{ height: 350px;}
 
 /*------Articles 4 et 5-------*/
 
@@ -102,10 +97,8 @@ h2{
 	padding: 0;
 }
 
-.artFin img{
-	max-height: 400px;	
-}
-
+.artFin img{ max-height: 400px;}	
+	
 .art4{
 	padding-left: 0;
 	padding-right: 2em;
@@ -117,7 +110,6 @@ h2{
 	padding-right: 0;
 	min-width: 600px;
 }
-
 
 /*essaie footer: https://codepen.io/umidbek96/pen/rNavBEx */
 
@@ -180,7 +172,6 @@ h2{
 .footer-bs .footer-ns p { 
 	font-size:12px; 
 	color:rgba(255,255,255,0.70); 
-	
 }
 
 @media (min-width: 768px) {
@@ -194,6 +185,4 @@ h2{
 	margin-bottom: 1px;
 }
 
-.titreLog{
-	text-align: center;
-}
+.titreLog{ text-align: center;}

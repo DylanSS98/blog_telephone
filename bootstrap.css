@@ -14,9 +14,6 @@ body {
 	box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
 	
 }
-.couverture{
-	max-width: 100% ;
-}
 
 .navbar {
     background-color: rgb(5, 5, 46);
@@ -69,10 +66,7 @@ h2{
 	background-image: url(imgpro/A_la_une.jpg);
 	max-width: 100% ;
 	background-repeat: no-repeat;
-	padding: 100px;
-
-	
-	
+	padding: 100px;	
 }
 
 .containerArt{
@@ -90,16 +84,40 @@ h2{
 
 /*-----Ensemble des articles-------------*/
 
-.articles{
+.card{
+	min-height: 38em;
+	margin-bottom: 2em;
+  }
+/*------Articles 1,2 et 3-------*/
+
+.artDebut img{
+	height: 350px;
+}
+
+/*------Articles 4 et 5-------*/
+
+.artFin{
 	max-height: 1700px;
 	margin: 0;
 	padding: 0;
 }
 
-.card{
-	min-height: 38em;
-	margin-bottom: 8em;
-  }
+.artFin img{
+	max-height: 400px;	
+}
+
+.art4{
+	padding-left: 0;
+	padding-right: 2em;
+	min-width: 600px;
+}
+
+.art5{
+	padding-left: 0;
+	padding-right: 0;
+	min-width: 600px;
+}
+
 
 /*essaie footer: https://codepen.io/umidbek96/pen/rNavBEx */
 
@@ -107,8 +125,7 @@ h2{
 	background-color: #05052e4f;
 	padding: 10px;
 	color: rgba(255,255,255,1.00);
-	margin-bottom: 20px;
-	
+	margin-bottom: 20px;	
 }
 
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
@@ -169,6 +186,8 @@ h2{
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 }
+
+/*-----------Contenue Footer--------------*/
 
 .icone{
 	height: 40px;

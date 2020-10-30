@@ -214,14 +214,17 @@ body {
 	 text-align: justify;
 	 
 	}
-.textlog h2{font-family:Adobe Devanagari, sans-serif;}
+.textlog h2{
+	font-family:Adobe Devanagari, sans-serif;
+	font-size: 4em;
+	}
 
 .textlog p{
 	margin-top: 2em;
 	margin-bottom: 5em;
 	}
 
-	/*--------Image-----------*/
+	/*--------introduction a propos-----------*/
 
 .travail{
 	background-image: url(imgpro/travail.png);
@@ -242,5 +245,28 @@ body {
  padding: 0;
 	}
 
+/*------------Partie qualités-----------*/
+.qualités{
+	text-align: center;
+	
+	margin-left: 6em;
+	margin-right: 6em;
+	padding-top: 7em;
+	padding-bottom: 7em;
+}
 
-xD
+.qualités h2{
+font-family:Adobe Devanagari, sans-serif;
+font-size: 4em;
+}
+
+.qualités p{
+	margin: 2em;
+}
+
+.qualités img{
+	max-height: 24em;
+}
+/*------------Partie exigences---------*/
+
+/*--------------------------------------------NOUS CONTACTER------------------------------------------------*/

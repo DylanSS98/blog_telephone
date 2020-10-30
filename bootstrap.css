@@ -239,10 +239,10 @@ body {
 .textT h3{ font-family:Adobe Devanagari, sans-serif;}
 
 .textT p{
- margin-left: 6em;
- margin-right: 6em;
- margin-top: 2em;
- padding: 0;
+ 	margin-left: 6em;
+ 	margin-right: 6em;
+ 	margin-top: 2em;
+ 	padding: 0;
 	}
 
 /*------------Partie qualités-----------*/
@@ -253,20 +253,38 @@ body {
 	margin-right: 6em;
 	padding-top: 7em;
 	padding-bottom: 7em;
-}
+	}
 
 .qualités h2{
-font-family:Adobe Devanagari, sans-serif;
-font-size: 4em;
-}
+	font-family:Adobe Devanagari, sans-serif;
+	font-size: 4em;
+	}
 
 .qualités p{
 	margin: 2em;
-}
+	}
 
 .qualités img{
 	max-height: 24em;
-}
+	}
 /*------------Partie exigences---------*/
+.bordureEx{
+	background-image: url(imgpro/agissons.jpg);
+	min-height: 500px;
+	text-align: center;
+	color: rgb(245, 247, 255);
+	font-family:Adobe Devanagari, sans-serif;
+	}
 
+.bordureEx h2{  
+	padding-top: 15%;
+	font-size: 4em;
+}
+
+.exigences p{
+	text-align: center;
+	margin-left: 6em;
+	margin-right: 6em;
+	padding-top: 5em;
+}
 /*--------------------------------------------NOUS CONTACTER------------------------------------------------*/

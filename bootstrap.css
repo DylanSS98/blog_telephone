@@ -40,7 +40,7 @@ body {
 
 .carousel { box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);  }
 
-h2{
+.h2{
 	text-align: center;
 	padding-top: 3em;
 }
@@ -72,7 +72,7 @@ h2{
 
 .containerArt{ max-width: 1850px;}	
 	
-.article h3{
+.h3{
 	color: rgb(39, 204, 245);
 	font-family: Adobe Hebrew, sans-serif;
 }
@@ -117,7 +117,8 @@ h2{
 	background-color: #05052e4f;
 	padding: 10px;
 	color: rgba(255,255,255,1.00);
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
+	
 }
 
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
@@ -186,3 +187,34 @@ h2{
 }
 
 .titreLog{ text-align: center;}
+
+/*---------------------------------------------------Page a propos de nous--------------------------------------------------------------------------------------*/
+
+.jumbotronApropos{
+	background-image: url(imgpro/Apropos.png);
+	background-repeat: no-repeat;
+	box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
+	max-width: 100% ;
+	min-height: 25em;
+	margin-bottom: 5em;
+	
+}
+
+ /*----------Partie sur logo-------*/
+
+ .logoap{margin-left: 15%; }
+
+ .logoap img{
+	min-height: 100%;
+	padding-right: 5em;
+	}
+
+.textlog{
+	 margin-left:5em ;
+	 margin-right: 6em;
+	 text-align: justify;
+	}
+
+.textlog p{
+	margin-top: 2em;
+	}

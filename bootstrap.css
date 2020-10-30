@@ -208,15 +208,17 @@ body {
 	min-height: 100%;
 	padding-right: 5em;
 	}
-
 .textlog{
 	 margin-left:10em ;
 	 margin-right: 6em;
 	 text-align: justify;
+	 
 	}
+.textlog h2{font-family:Adobe Devanagari, sans-serif;}
 
 .textlog p{
 	margin-top: 2em;
+	margin-bottom: 5em;
 	}
 
 	/*--------Image-----------*/
@@ -225,13 +227,20 @@ body {
 	background-image: url(imgpro/travail.png);
 	min-height: 30em;
 	text-align: justify;
-}
-
+	text-align: center;
+	}
 .textT{
+	padding-top: 6em;
+	color: rgba(241, 238, 238, 0.918);
+	}   
+.textT h3{ font-family:Adobe Devanagari, sans-serif;}
 
-	align-items: center;
-	margin:20em ;
-	padding-top: 5em;
-	color: rgb(15, 14, 14);
+.textT p{
+ margin-left: 6em;
+ margin-right: 6em;
+ margin-top: 2em;
+ padding: 0;
+	}
 
-}
+
+xD

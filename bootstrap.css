@@ -293,18 +293,38 @@ body {
 	padding-top: 15em;
 	margin-left: 10%;
 	margin-right: 20%;
-	
+	background-color: rgba(235, 233, 233, 0.493);
+	max-width:800px ;	
 }
 
 .Contact{
-	background-color: rgba(214, 214, 214, 0.589);
-	text-align: center;
-	padding-top: 200px;
+	
+	padding-right: 100px;
+	padding-top: 20px;
 	border: 3px black;
 	border-style: solid ;
 	max-width:800px ;
 	min-height: 500px;
+}
 
+.Contact h2{
+	margin-left: 1em;
+	font-family:Adobe Devanagari, sans-serif;
+	font-size: 4em;
+}
+/*------Formulaire------*/
+
+.form-group{
+
+	background-color: deepskyblue;
+	margin-top: 3em;
+	max-width: 400px;
+	margin-left: 2em;
+	
+}
+
+.email{
+	padding-top: 3em;
 }
 
 
@@ -316,5 +336,4 @@ body {
 	top: 0;
 	position: absolute;
 	width: 57.6%;
-}
 }

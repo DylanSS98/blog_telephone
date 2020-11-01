@@ -285,55 +285,53 @@ body {
 	text-align: center;
 	margin-left: 6em;
 	margin-right: 6em;
-	padding-top: 5em;
+	padding-top: 9em;
 }
 /*--------------------------------------------NOUS CONTACTER------------------------------------------------*/
 
 .nousContacter{
-	padding-top: 15em;
+	position: relative;
+	margin-top: 15em;
+	min-height: 900px;
+}
+
+.encadrement{
+	padding-top: 20em;
 	margin-left: 10%;
 	margin-right: 20%;
-	background-color: rgba(235, 233, 233, 0.493);
-	max-width:800px ;	
 }
 
 .Contact{
-	
 	padding-right: 100px;
 	padding-top: 20px;
 	border: 3px black;
 	border-style: solid ;
 	max-width:800px ;
 	min-height: 500px;
+	background-color: rgba(235, 233, 233, 0.493);
 }
 
 .Contact h2{
-	margin-left: 1em;
+	margin-left: 100px;
 	font-family:Adobe Devanagari, sans-serif;
 	font-size: 4em;
 }
+
 /*------Formulaire------*/
 
-.form-group{
-
-	background-color: deepskyblue;
-	margin-top: 3em;
-	max-width: 400px;
-	margin-left: 2em;
-	
+.contenant{
+	margin-top: 1em;
+	padding-left: 8em;
+	min-width: 400px;	
 }
-
-.email{
-	padding-top: 3em;
-}
-
 
 /*-----image contact-----*/
-.nousContacter figure{
-	float: left;
-	padding-top: 200em;
+
+.nousContacter img{
+	position: absolute;
+	vertical-align: text-bottom ;
+	padding-right: 3em;
 	right: 0;
 	top: 0;
-	position: absolute;
 	width: 57.6%;
 }

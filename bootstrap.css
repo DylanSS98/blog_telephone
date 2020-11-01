@@ -288,3 +288,33 @@ body {
 	padding-top: 5em;
 }
 /*--------------------------------------------NOUS CONTACTER------------------------------------------------*/
+
+.nousContacter{
+	padding-top: 15em;
+	margin-left: 10%;
+	margin-right: 20%;
+	
+}
+
+.Contact{
+	background-color: rgba(214, 214, 214, 0.589);
+	text-align: center;
+	padding-top: 200px;
+	border: 3px black;
+	border-style: solid ;
+	max-width:800px ;
+	min-height: 500px;
+
+}
+
+
+/*-----image contact-----*/
+.nousContacter figure{
+	float: left;
+	padding-top: 200em;
+	right: 0;
+	top: 0;
+	position: absolute;
+	width: 57.6%;
+}
+}

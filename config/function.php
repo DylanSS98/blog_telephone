@@ -1,12 +1,28 @@
 <?php
-
+//FONCTION QUI RECUPERE TOUS LES ARTICLES//
+require_once ('connect.php');
 function getArticles()
+
 {
-    require('config/connect.php');
-    $req = $bdd->prepare('SELECT ID, Title, FROM actricle ORDER BY ID DESC');
-    $req->execute();
-    $date = $req->fetchAll(PDO::FETCH_OBJ);
-    return $data;
-    $req->closeCursor();
-}
+    $bdd = pdo();
+        $requete = $bdd->prepare('SELECT ID, Title, Slug FROM article WHERE ID');
+        $requete->execute();
+        $data = $requete->fetchAll();
+        return $data;
+
+    }
+//FONCTION QUI RECUPERE UN ARTICLE//
+function getArticle($id)
+    {
+        $bdd = pdo();
+            $requete = $bdd->prepare('SELECT * FROM article WHERE id = ?');
+            $requete->execute(array($id));
+            if ($requete->rowCount()== 1)
+                {
+                    $data = $requete->fetch();
+                    return $data;
+                }
+            else
+                header('location: index.php');
+    }
 

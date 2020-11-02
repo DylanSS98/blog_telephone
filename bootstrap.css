@@ -55,6 +55,7 @@ body {
 
 /*----Couverture article-----*/
 .container2{
+	
 	max-width: 90% ;
 	margin-left: auto;
 	margin-right: auto;
@@ -82,9 +83,29 @@ body {
 /*-----Ensemble des articles-------------*/
 
 .card{
-	min-height: 38em;
+	min-height: 35em;
 	margin-bottom: 2em;
+	background-image: url(imgpro/art1jpg.jpg);
+	background-repeat: no-repeat;
   }
+/*-------Article avec la fusion php------*/
+.artFus{
+	background-color: rgb(221, 127, 221);
+	min-height: 10em;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.Art-fus{
+	width: 100%;
+	background-color: green;
+}
+
+
+
+
+
+
 /*------Articles 1,2 et 3-------*/
 
 .artDebut img{ height: 350px;}
@@ -358,11 +379,14 @@ body {
 
 /*----------Aligement colone mentions leg-----*/
 .containeurML{
-padding: 3em 10em 0;
+padding: 3em 0 5em 7.5em;
+text-align: center ;
 }
 
 
 .alignMentionL{
-	
 	margin-bottom: 2em;
+	margin-right: 4em;
+	text-align: justify;
+	min-height: 7em;
 }

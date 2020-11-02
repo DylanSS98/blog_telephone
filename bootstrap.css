@@ -188,7 +188,7 @@ body {
 
 .titreLog{ text-align: center;}
 
-/*---------------------------------------------------Page a propos de nous--------------------------------------------------------------------------------------*/
+/*---------------------------------------------------PAGE A PROPOS DE NOUS-------------------------------------------------------------------------------------*/
 
 .jumbotronApropos{
 	background-image: url(imgpro/Apropos.png);
@@ -334,4 +334,35 @@ body {
 	right: 0;
 	top: 0;
 	width: 57.6%;
+}
+
+/*--------------------------------------MENTIONS LEGALES-----------------------------------------------------*/
+
+.MentionsLegales{
+	background-image: url(imgpro/MentionsLegales.jpg);
+	background-repeat: no-repeat;
+	min-height: 500px;
+	min-width: 800px;
+	margin: 3em 5.5em;
+	text-align: center;
+	box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
+}       
+
+.MentionsLegales h2{
+	padding:3.5em 2.5em 0 1em;
+	font-family:Adobe Devanagari, sans-serif;
+	font-size: 4em;
+}
+
+.MentionsLegales p{	padding-right: 5em;}
+
+/*----------Aligement colone mentions leg-----*/
+.containeurML{
+padding: 3em 10em 0;
+}
+
+
+.alignMentionL{
+	
+	margin-bottom: 2em;
 }

@@ -4,12 +4,8 @@
     <list default="true" id="d7efeb7b-6bc4-4b10-896b-f402c0794437" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgpro/fond_caroussel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgpro/fond_caroussel.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/premierprojet.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
       <workItem from="1603959327791" duration="2981000" />
       <workItem from="1604062347747" duration="4127000" />
       <workItem from="1604301594952" duration="20000" />
-      <workItem from="1604301649514" duration="10376000" />
+      <workItem from="1604301649514" duration="15775000" />
     </task>
     <servers />
   </component>

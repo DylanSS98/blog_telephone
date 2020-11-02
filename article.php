@@ -1,14 +1,10 @@
 <?php
 
 
-if (isset($_GET['ID']))
-    header('location: index.php');
-else {
-        extract($_GET);
-        $id = strip_tags('ID');
-        require_once ('config/function.php');
-        $article = getArticles($id);
-}
+require_once ('config/function.php');
+extract($_GET);
+$id = strip_tags($id);
+$article = getArticle($id);
 ?>
 <html>
     <head>
@@ -16,8 +12,8 @@ else {
     <title><?= $article['Title'] ?></title>
 </head>
 <body>
-    <h1><?= $article['Title'] ?></h1>
-        <p><?= $article['Content'] ?></p>
+    <h1 style="font-family: 'Arial Black'"><?= $article['Title'] ?></h1>
+        <p style="font-family: Arial"><?= $article['Content'] ?></p>
         <hr/>
 </body>
 </html>

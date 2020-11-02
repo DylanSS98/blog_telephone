@@ -1,3 +1,4 @@
+  
 <?php
 //Connexion base de données blog_portable//
 
@@ -7,6 +8,3 @@
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
     ]);
 }
-
-
-

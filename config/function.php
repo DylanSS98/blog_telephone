@@ -25,4 +25,3 @@ function getArticle($id)
             else
                 header('location: index.php');
     }
-

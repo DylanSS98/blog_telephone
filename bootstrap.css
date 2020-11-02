@@ -1,21 +1,25 @@
-* {
-    margin: 0;
-}
+* {margin: 0;}
 
-.header{
-    display: flex;
-    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100% ;
+    background-color: rgba(235, 238, 241, 0.205);
 }
+/*----------HEADER------------------*/
+.header{ box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);}
+
+.logo{ height: 70px;}
 
 .navbar {
     background-color: rgb(5, 5, 46);
-    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)
+    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
 }
 
+/*----------------BODY-------------------*/
 .container{
     max-width: 1200px;
     max-height: 1500px;
-   
 }
 
 .container h1{
@@ -23,13 +27,312 @@
     text-align: center;
     text-decoration: solid black 1px;
     font-size: 5em;
+    font-family: Adobe Hebrew, sans-serif;
     margin-top: 1em;
+}
+/*-------Carousel-------*/
 
-
-} 
-
-.carousel {
-  box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527)  
+.centrerCarousel{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.carousel { box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);  }
+
+.h2{
+    text-align: center;
+    padding-top: 3em;
+}
+
+.text p{
+
+    text-align: justify;
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 3em;
+}
+
+/*----Couverture article-----*/
+.container2{
+    max-width: 90% ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.jumbotron {
+    background-image: url(imgpro/A_la_une.jpg);
+    max-width: 100% ;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.containerArt{ max-width: 1850px;}
+
+.h3{
+    color: rgb(39, 204, 245);
+    font-family: Adobe Hebrew, sans-serif;
+}
+
+.article p{ color: rgba(29, 131, 156, 0.979);}
+
+/*-----Ensemble des articles-------------*/
+
+.card{
+    min-height: 38em;
+    margin-bottom: 2em;
+}
+/*------Articles 1,2 et 3-------*/
+
+.artDebut img{ height: 350px;}
+
+/*------Articles 4 et 5-------*/
+
+.artFin{
+    max-height: 1700px;
+    margin: 0;
+    padding: 0;
+}
+
+.artFin img{ max-height: 400px;}
+
+.art4{
+    padding-left: 0;
+    padding-right: 2em;
+    min-width: 600px;
+}
+
+.art5{
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 600px;
+}
+
+/*essaie footer: https://codepen.io/umidbek96/pen/rNavBEx */
+
+.footer-bs {
+    background-color: #05052e4f;
+    padding: 10px;
+    color: rgba(255,255,255,1.00);
+    margin-bottom: 20px;
+
+}
+
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p {
+    font-size:12px;
+    color:rgba(255,255,255,0.70);
+}
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a {
+    color:rgba(255,255,255,1.00);
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.footer-bs .footer-nav ul.pages a:hover {
+    color:rgba(255,255,255,0.80);
+    text-decoration:none;
+}
+.footer-bs .footer-nav h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover {
+    color:rgba(255,255,255,0.80);
+    text-decoration:none;
+}
+
+.footer-bs .footer-ns h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:10px;
+}
+.footer-bs .footer-ns p {
+    font-size:12px;
+    color:rgba(255,255,255,0.70);
+}
+
+@media (min-width: 768px) {
+    .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+
+/*-----------Contenue Footer--------------*/
+
+.icone{
+    height: 40px;
+    margin-bottom: 1px;
+}
+
+.titreLog{ text-align: center;}
+
+/*---------------------------------------------------Page a propos de nous--------------------------------------------------------------------------------------*/
+
+.jumbotronApropos{
+    background-image: url(imgpro/Apropos.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
+    max-width: 100% ;
+    min-height: 25em;
+    margin-bottom: 5em;
+
+}
+
+/*----------Partie sur logo-------*/
+
+.logoap{margin-left: 15%; }
+
+.logoap img{
+    min-height: 100%;
+    padding-right: 5em;
+}
+.textlog{
+    margin-left:10em ;
+    margin-right: 6em;
+    text-align: justify;
+
+}
+.textlog h2{
+    font-family:Adobe Devanagari, sans-serif;
+    font-size: 4em;
+}
+
+.textlog p{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+/*--------introduction a propos-----------*/
+
+.travail{
+    background-image: url(imgpro/travail.png);
+    min-height: 30em;
+    text-align: justify;
+    text-align: center;
+}
+.textT{
+    padding-top: 6em;
+    color: rgba(241, 238, 238, 0.918);
+}
+.textT h3{ font-family:Adobe Devanagari, sans-serif;}
+
+.textT p{
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 2em;
+    padding: 0;
+}
+
+/*------------Partie qualités-----------*/
+.qualités{
+    text-align: center;
+
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+.qualités h2{
+    font-family:Adobe Devanagari, sans-serif;
+    font-size: 4em;
+}
+
+.qualités p{
+    margin: 2em;
+}
+
+.qualités img{
+    max-height: 24em;
+}
+/*------------Partie exigences---------*/
+.bordureEx{
+    background-image: url(imgpro/agissons.jpg);
+    min-height: 500px;
+    text-align: center;
+    color: rgb(245, 247, 255);
+    font-family:Adobe Devanagari, sans-serif;
+}
+
+.bordureEx h2{
+    padding-top: 15%;
+    font-size: 4em;
+}
+
+.exigences p{
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-top: 9em;
+}
+/*--------------------------------------------NOUS CONTACTER------------------------------------------------*/
+
+.nousContacter{
+    position: relative;
+    margin-top: 15em;
+    min-height: 900px;
+}
+
+.encadrement{
+    padding-top: 20em;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.Contact{
+    padding-right: 100px;
+    padding-top: 20px;
+    border: 3px black;
+    border-style: solid ;
+    max-width:800px ;
+    min-height: 500px;
+    background-color: rgba(235, 233, 233, 0.493);
+}
+
+.Contact h2{
+    margin-left: 100px;
+    font-family:Adobe Devanagari, sans-serif;
+    font-size: 4em;
+}
+
+/*------Formulaire------*/
+
+.contenant{
+    margin-top: 1em;
+    padding-left: 8em;
+    min-width: 400px;
+}
+
+/*-----image contact-----*/
+
+.nousContacter img{
+    position: absolute;
+    vertical-align: text-bottom ;
+    padding-right: 3em;
+    right: 0;
+    top: 0;
+    width: 57.6%;
+}
 

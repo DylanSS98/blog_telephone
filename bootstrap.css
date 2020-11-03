@@ -85,20 +85,17 @@ body {
 .card{
 	min-height: 35em;
 	margin-bottom: 2em;
-	background-image: url(imgpro/art1jpg.jpg);
-	background-repeat: no-repeat;
+	
   }
 /*-------Article avec la fusion php------*/
-.artFus{
-	background-color: rgb(221, 127, 221);
+.artFus {
 	min-height: 10em;
 	width: 100%;
 	margin-bottom: 2em;
 }
 
 .Art-fus{
-	width: 100%;
-	background-color: green;
+	width: 100%;	
 }
 
 

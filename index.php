@@ -122,7 +122,7 @@
             Le smartphone est devenu un luxe, en raison de son prix, mais un moyen de rester connecté en permanence, à travers
             le monde entier.</br>
          </p>
-      </div>
+      </div> 
       <!--Crée un truc du genre "a la une" conteant plusieurs article-->
       <div class="container2 col-md-4 ml-auto">
          <div class="jumbotron jumbotron-fluid">
@@ -142,6 +142,7 @@
             <div class="Art-fus col-md-4">
              
             <div class="card">
+            <img src="imgpro/articles.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h2><?= $article['Title'] ?></h2>
                      <a href="article.php?id=<?= $article['ID'] ?>">Lire la suite</a>

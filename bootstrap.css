@@ -98,11 +98,6 @@ body {
 	width: 100%;	
 }
 
-
-
-
-
-
 /*------Articles 1,2 et 3-------*/
 
 .artDebut img{ height: 350px;}
@@ -374,7 +369,7 @@ body {
 
 /*----------Aligement colone mentions leg-----*/
 .containeurML{
-padding: 3em 0 5em 7.5em;
+padding: 1em 0 5em 5.5em;
 text-align: center ;
 }
 
@@ -385,3 +380,13 @@ text-align: center ;
 	text-align: justify;
 	min-height: 7em;
 }
+
+.alignMentionL h3{margin-left: 1.5em;}
+
+.includeimg{position: absolute;}
+
+/*--------------Garenti mat---------*/
+
+
+/*--------------Licence logiciel-----*/
+

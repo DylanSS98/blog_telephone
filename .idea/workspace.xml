@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7efeb7b-6bc4-4b10-896b-f402c0794437" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionLegales.html" beforeDir="false" afterPath="$PROJECT_DIR$/MentionLegales.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aPropos.html" beforeDir="false" afterPath="$PROJECT_DIR$/aPropos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple.html" beforeDir="false" afterPath="$PROJECT_DIR$/apple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nouveaute.html" beforeDir="false" afterPath="$PROJECT_DIR$/nouveaute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/premierprojet.html" beforeDir="false" afterPath="$PROJECT_DIR$/premierprojet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung.html" beforeDir="false" afterPath="$PROJECT_DIR$/samsung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiko.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiko.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test_php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,7 +67,10 @@
       <workItem from="1603959327791" duration="2981000" />
       <workItem from="1604062347747" duration="4127000" />
       <workItem from="1604301594952" duration="20000" />
-      <workItem from="1604301649514" duration="16595000" />
+      <workItem from="1604301649514" duration="19181000" />
+      <workItem from="1604389865297" duration="3440000" />
+      <workItem from="1604407000427" duration="7910000" />
+      <workItem from="1604418589125" duration="304000" />
     </task>
     <servers />
   </component>

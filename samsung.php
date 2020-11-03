@@ -54,9 +54,9 @@
                 Téléphones
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="apple.html">Apple</a>
-                <a class="dropdown-item" href="samsung.html">Samsung</a>
-                <a class="dropdown-item" href="wiko.html">Wiko</a>
+                <a class="dropdown-item" href="apple.php">Apple</a>
+                <a class="dropdown-item" href="samsung.php">Samsung</a>
+                <a class="dropdown-item" href="wiko.php">Wiko</a>
               </div>
             </li>
           </ul>
@@ -120,7 +120,7 @@
           <div class="col-md-2 order-0 p-2 bd-highlight ">
             <a href="logo"><img src="imgpro/logo.png" alt="logo"></a>
           </div>
-        
+     
           <div class=" col-md-2 order-1 p-2 bd-highlight footer-brand animated fadeInLeft ">
             <h3 class="titreLog">Logo</h3> 
             <p> La consultation de ce site est optimale avec Microsoft Internet Explorer 11 ou versions

@@ -17,10 +17,7 @@ body {
 }
 	
  /*----------------BODY-------------------*/
-.container{
-    max-width: 1200px;
-    max-height: 1500px;   
-}
+.container{ max-width: 1200px;}
 
 .container h1{
 
@@ -387,3 +384,22 @@ text-align: center ;
 
 /*-------------------------------------------------TERMES ET CONDITONS-----------------------------*/
 
+.titreCG{
+	border-top: rgba(163, 158, 158, 0.671) 1px solid;
+	border-bottom:rgba(163, 158, 158, 0.671) 1px solid;
+	min-height: 200px;
+	padding: 5em 15em 5em ;
+	margin-bottom: 5em;
+	text-align: center;
+}
+
+.titreCG h2{
+	font-family:Adobe Devanagari, sans-serif;
+	font-size: 4em;
+}
+
+/*-------Contenue--------*/
+
+.TermesConditions{text-align: justify;}
+
+.textTC{margin-bottom: 2em;}

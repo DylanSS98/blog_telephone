@@ -161,7 +161,7 @@ $articles = getArticles();
     <!--<div class="d-flex justify-content-start">-->
 
 
-        <!-------------1er article------------------->
+        <!-------------Les articles------------------->
 
         <!--------Tous metre dans le meme panier pour les col------->
 
@@ -183,9 +183,7 @@ $articles = getArticles();
 
                 <!--https://www.lesnumeriques.com/telephone-portable/iphone-12-pourquoi-l-absence-de-la-5g-millimetrique-ne-devrait-pas-dissuader-les-acheteurs-francais-n155753.html-->
 
-
-
-        
+    <!-----------fin article------------------------->
 </div>
 
 <!--ESSAIE FOOTER:  https://www.freelancer.in/contest/Need-html-css-expert-to-design-a-footer-for-my-website-1652542-byentry-32244725?w=f&ngsw-bypass=# -->

@@ -17,7 +17,7 @@ function getArticle($id)
         $bdd = pdo();
             $requete = $bdd->prepare('SELECT * FROM article WHERE id = ?');
             $requete->execute(array($id));
-            if ($requete->rowCount()== 1)
+            if ($requete->rowCount() == 1)
                 {
                     $data = $requete->fetch();
                     return $data;

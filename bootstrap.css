@@ -1,38 +1,38 @@
 * {margin: 0;}
 
 body {
-    margin: 0;
+	margin: 0;
 	padding: 0;
 	max-width: 100% ;
 	background-color: rgba(235, 238, 241, 0.205);
 }
 /*----------HEADER------------------*/
 .header{ box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);}
-	
+
 .logo{ height: 70px;}
-	
+
 .navbar {
-    background-color: rgb(5, 5, 46);
+	background-color: rgb(5, 5, 46);
 	box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
 }
-	
- /*----------------BODY-------------------*/
+
+/*----------------BODY-------------------*/
 .container{ max-width: 1200px;}
 
 .container h1{
 
-    text-align: center;
-    text-decoration: solid black 1px;
+	text-align: center;
+	text-decoration: solid black 1px;
 	font-size: 5em;
 	font-family: Adobe Hebrew, sans-serif;
-    margin-top: 1em;
-} 
+	margin-top: 1em;
+}
 /*-------Carousel-------*/
 
 .centrerCarousel{
-  max-width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .carousel { box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);  }
@@ -43,7 +43,7 @@ body {
 }
 
 .text p{
-	
+
 	text-align: justify;
 	margin-left: 15em;
 	margin-right: 15em;
@@ -52,7 +52,7 @@ body {
 
 /*----Couverture article-----*/
 .container2{
-	
+
 	max-width: 90% ;
 	margin-left: auto;
 	margin-right: auto;
@@ -65,25 +65,25 @@ body {
 	background-image: url(imgpro/A_la_une.jpg);
 	max-width: 100% ;
 	background-repeat: no-repeat;
-	padding: 100px;	
+	padding: 100px;
 }
 
-.containerArt{ max-width: 1850px;}	
-	
+.containerArt{ max-width: 1850px;}
+
 .h3{
 	color: rgb(39, 204, 245);
 	font-family: Adobe Hebrew, sans-serif;
 }
 
 .article p{ color: rgba(29, 131, 156, 0.979);}
-	
+
 /*-----Ensemble des articles-------------*/
 
 .card{
 	min-height: 35em;
 	margin-bottom: 2em;
-	
-  }
+
+}
 /*-------Article avec la fusion php------*/
 .artFus {
 	min-height: 10em;
@@ -92,7 +92,7 @@ body {
 }
 
 .Art-fus{
-	width: 100%;	
+	width: 100%;
 }
 
 /*------Articles 1,2 et 3-------*/
@@ -107,8 +107,8 @@ body {
 	padding: 0;
 }
 
-.artFin img{ max-height: 400px;}	
-	
+.artFin img{ max-height: 400px;}
+
 .art4{
 	padding-left: 0;
 	padding-right: 2em;
@@ -132,21 +132,21 @@ body {
 
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
 .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
-.footer-bs .footer-brand p { 
-	font-size:12px; 
-	color:rgba(255,255,255,0.70); 
+.footer-bs .footer-brand p {
+	font-size:12px;
+	color:rgba(255,255,255,0.70);
 }
 
 .footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.pages li { padding:5px 0px;}
-.footer-bs .footer-nav ul.pages a { 
-	color:rgba(255,255,255,1.00); 
-	font-weight:bold; 
-	text-transform:uppercase; 
+.footer-bs .footer-nav ul.pages a {
+	color:rgba(255,255,255,1.00);
+	font-weight:bold;
+	text-transform:uppercase;
 }
-.footer-bs .footer-nav ul.pages a:hover { 
-	color:rgba(255,255,255,0.80); 
-	text-decoration:none; 
+.footer-bs .footer-nav ul.pages a:hover {
+	color:rgba(255,255,255,0.80);
+	text-decoration:none;
 }
 .footer-bs .footer-nav h4 {
 	font-size: 11px;
@@ -168,9 +168,9 @@ body {
 }
 .footer-bs .footer-social li { padding:5px 4px;}
 .footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
-.footer-bs .footer-social a:hover { 
-	color:rgba(255,255,255,0.80); 
-	text-decoration:none; 
+.footer-bs .footer-social a:hover {
+	color:rgba(255,255,255,0.80);
+	text-decoration:none;
 }
 
 .footer-bs .footer-ns h4 {
@@ -179,9 +179,9 @@ body {
 	letter-spacing: 3px;
 	margin-bottom:10px;
 }
-.footer-bs .footer-ns p { 
-	font-size:12px; 
-	color:rgba(255,255,255,0.70); 
+.footer-bs .footer-ns p {
+	font-size:12px;
+	color:rgba(255,255,255,0.70);
 }
 
 @media (min-width: 768px) {
@@ -206,53 +206,53 @@ body {
 	max-width: 100% ;
 	min-height: 25em;
 	margin-bottom: 5em;
-	
+
 }
 
- /*----------Partie sur logo-------*/
+/*----------Partie sur logo-------*/
 
- .logoap{margin-left: 15%; }
+.logoap{margin-left: 15%; }
 
- .logoap img{
+.logoap img{
 	min-height: 100%;
 	padding-right: 5em;
-	}
+}
 .textlog{
-	 margin-left:10em ;
-	 margin-right: 6em;
-	 text-align: justify;
-	 
-	}
+	margin-left:10em ;
+	margin-right: 6em;
+	text-align: justify;
+
+}
 .textlog h2{
 	font-family:Adobe Devanagari, sans-serif;
 	font-size: 4em;
-	}
+}
 
 .textlog p{
 	margin-top: 2em;
 	margin-bottom: 5em;
-	}
+}
 
-	/*--------introduction a propos-----------*/
+/*--------introduction a propos-----------*/
 
 .travail{
 	background-image: url(imgpro/travail.png);
 	min-height: 30em;
 	text-align: justify;
 	text-align: center;
-	}
+}
 .textT{
 	padding-top: 6em;
 	color: rgba(241, 238, 238, 0.918);
-	}   
+}
 .textT h3{ font-family:Adobe Devanagari, sans-serif;}
 
 .textT p{
- 	margin-left: 6em;
- 	margin-right: 6em;
- 	margin-top: 2em;
- 	padding: 0;
-	}
+	margin-left: 6em;
+	margin-right: 6em;
+	margin-top: 2em;
+	padding: 0;
+}
 
 /*------------Partie qualités-----------*/
 .qualités{
@@ -261,20 +261,20 @@ body {
 	margin-right: 6em;
 	padding-top: 7em;
 	padding-bottom: 7em;
-	}
+}
 
 .qualités h2{
 	font-family:Adobe Devanagari, sans-serif;
 	font-size: 4em;
-	}
+}
 
 .qualités p{
 	margin: 2em;
-	}
+}
 
 .qualités img{
 	max-height: 24em;
-	}
+}
 /*------------Partie exigences---------*/
 .bordureEx{
 	background-image: url(imgpro/agissons.jpg);
@@ -282,9 +282,9 @@ body {
 	text-align: center;
 	color: rgb(245, 247, 255);
 	font-family:Adobe Devanagari, sans-serif;
-	}
+}
 
-.bordureEx h2{  
+.bordureEx h2{
 	padding-top: 15%;
 	font-size: 4em;
 }
@@ -330,7 +330,7 @@ body {
 .contenant{
 	margin-top: 1em;
 	padding-left: 8em;
-	min-width: 400px;	
+	min-width: 400px;
 }
 
 /*-----image contact-----*/
@@ -354,7 +354,7 @@ body {
 	margin: 3em 5.5em;
 	text-align: center;
 	box-shadow: 0 4px 10px rgba(7, 6, 41, 0.527);
-}       
+}
 
 .MentionsLegales h2{
 	padding:3.5em 2.5em 0 1em;
@@ -366,8 +366,8 @@ body {
 
 /*----------Aligement colone mentions leg-----*/
 .containeurML{
-padding: 1em 0 5em 5.5em;
-text-align: center ;
+	padding: 1em 0 5em 5.5em;
+	text-align: center ;
 }
 
 

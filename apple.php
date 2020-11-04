@@ -54,9 +54,9 @@
                 Téléphones
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="apple.html">Apple</a>
-                <a class="dropdown-item" href="samsung.html">Samsung</a>
-                <a class="dropdown-item" href="wiko.html">Wiko</a>
+                <a class="dropdown-item" href="apple.php">Apple</a>
+                <a class="dropdown-item" href="samsung.php">Samsung</a>
+                <a class="dropdown-item" href="wiko.php">Wiko</a>
               </div>
             </li>
           </ul>
@@ -74,6 +74,27 @@
 <!-----------------------------------------------------------Conteneur------------------------------------------------>
 
 <div class="container">
+
+    <?php
+    require_once ('config/function.php');
+    $article = getArticle($id);
+
+    ?>
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title><?= $article['Title'] ?></title>
+    </head>
+    <body>
+    <h1 style="font-family: 'Arial Black'; text-align: center"><?= $article['Title'] ?></h1>
+    <p style="font-family: Arial; text-align: center; margin-right: 20%; margin-left: 20%"><?= $article['Content'] ?></p>
+    <hr/>
+    </body>
+    </html>
+
+
+
+
 
 
 
@@ -116,13 +137,13 @@
       
       <footer class="footer-bs d-flex flex-nowrap bd-highlight">
         <div class="row">
-        
+          
           <div class="col-md-2 order-0 p-2 bd-highlight ">
             <a href="logo"><img src="imgpro/logo.png" alt="logo"></a>
           </div>
-     
+        
           <div class=" col-md-2 order-1 p-2 bd-highlight footer-brand animated fadeInLeft ">
-            <h3 class="titreLog">Logo</h3> 
+            <h3 class="titreLog">Logo</h3>
             <p> La consultation de ce site est optimale avec Microsoft Internet Explorer 11 ou versions
               ultérieures, et/ou les versions les plus récentes des navigateurs Google Chrome ou Mozilla Firefox.</p>
             <p>© 2014 BS3 UI Kit,Tous droits réservés. </p>

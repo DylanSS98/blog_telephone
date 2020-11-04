@@ -1,61 +1,26 @@
 <?php
 
-//https://waytolearnx.com/2019/07/comment-faire-un-formulaire-en-php-mysql.html
+$pdo = new PDO('mysql:dbname=blog_telephone;host=127.0.0.1', 'root', '', [
+PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
-
-require_once ('config/function.php');
-
-// Vérifie qu'il provient d'un formulaire
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $Title = $_POST["Title"]; 
-    $Content = $_POST["Content"];
+// si j ai bien poster un truc dand l article
+if(isset($_POST['Title'])){
     
-    if (!isset($Title)){
-      die("Entrez le titre de l'article");
-    }
-   
-    
-    print "Pour l'article" . $Title . ", voici ce qu'il contien ". $Content;
-  }
-//Stockage de données dans MySql
+    if(isset($_POST['Title']) && isset($_POST['Content'])){
 
-// Vérifie qu'il provient d'un formulaire
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    //identifiants mysql
-    $host = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "blog_telephone";
-    
-    $Title = $_POST["Title"]; 
-    $Content = $_POST["Content"];
-    
-    //Ouvrir une nouvelle connexion au serveur MySQL
-    $mysqli = new mysqli($host, $username, $password, $database);
-    
-    //Afficher toute erreur de connexion
-    if ($mysqli->connect_error) {
-      die('Error : ('. $mysqli->connect_errno .') '. $mysqli->connect_error);
-    }  
-    
-    //préparer la requête d'insertion SQL
-    $statement = $mysqli->prepare("INSERT INTO blog_telephone (Title, Content) VALUES(?, ?)"); 
-    //Associer les valeurs et exécuter la requête d'insertion
-    $statement->bind_param('ss', $Title, $Content); 
-    
-    if($statement->execute()){
-      print "Pour l'article " . $Title . ", le contenu est ". $Content;
-    }else{
-      print $mysqli->error; 
-    }
-  }
+    $titre = $_POST['Title'];
+    $contenu = $_POST['Content'];
 
+    $ins = $pdo->prepare("INSERT INTO article (Title,Content) VALUES (:title, :contenu)");
 
+    $ins->bindParam(':title', $titre);
+    $ins->bindParam(':contenu', $contenu);
 
+//bindParam assigne mieu la valeur
+    $ins->execute();
 
-
-
-?>
+}}
+    ?>
 
 
 
@@ -126,10 +91,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!--------------------------------------------------------------CONTENU--------------------------------->
 
-        <form action="formArt.php" method="post">
-            <p>Nom article <input type="text" name="article" /></p>
+        <form action="" method="POST">
+            <p>Nom article <input type="text" name="Title" /></p>
 
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Entrer votre message"rows="3"></textarea>
+            <textarea class="form-control" name="Content" id="exampleFormControlTextarea1" placeholder="Entrer votre message"rows="3"></textarea>
                   
             <p><input type="submit" value="OK"></p>
         </form>

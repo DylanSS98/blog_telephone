@@ -27,10 +27,26 @@ function getArticle($id)
                     $data = $requete->fetch();
                     return $data;
                 }
-            else
-                header('location: index.php');
+           /* else
+                header('location: index.php');*/
     }
 
 //fonction pour le slug//
 
+function getCategory() {
+    $bdd = pdo();
+    $requete = $bdd->prepare('SELECT category_name FROM category');
+    $requete->execute();
+   return $requete->fetchAll();
 
+}
+
+function getArtCat()
+{
+    $bdd = pdo();
+
+    $query = $bdd->prepare("SELECT * FROM article INNER JOIN category ON article.ID = category.category_name");
+
+    $query->execute();
+    return $query->fetchAll();
+}

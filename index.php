@@ -2,6 +2,8 @@
 require_once ('config/function.php');
 
 $articles = getArticles();
+$category = getCategory();
+
 
 
 
@@ -54,9 +56,9 @@ $articles = getArticles();
                             Téléphones
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="apple.html">Apple</a>
-                            <a class="dropdown-item" href="samsung.html">Samsung</a>
-                            <a class="dropdown-item" href="wiko.html">Wiko</a>
+                            <?php foreach ($category as $categories): ?>
+                            <a class="dropdown-item" href="category.php?category=<?= $categories ['category_name'] ?>"><?= $categories ['category_name'] ?></a>
+                            <?php endforeach; ?>
                         </div>
                     </li>
                 </ul>

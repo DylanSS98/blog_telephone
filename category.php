@@ -2,10 +2,21 @@
 
 require_once ('config/function.php');
 
-$category = $_GET['category'];
-$category = getCategory();
-$articles = getArticles();
-$artCat = getArtCat();
+//$category = $_GET['category'];//
+$categorie = getCategory();
+//$artCategory = getArtCat();//
+
+if(isset($_GET['category']))
+{
+    require_once ('config/connect.php');
+    $bdd = pdo();
+    $category = $_GET['category'];
+    $sql = $bdd->prepare("SELECT article.* FROM article LEFT JOIN category ON article.Category_ID = category.ID WHERE category.category_name ='$category'");
+    $sql->execute();
+    $artCategory = $sql->fetchAll(PDO::FETCH_ASSOC);
+
+}
+
 
 ?>
 
@@ -65,7 +76,7 @@ $artCat = getArtCat();
                             Téléphones
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <?php foreach ($category as $categories): ?>
+                            <?php foreach ($categorie as $categories): ?>
                                 <a class="dropdown-item" href="category.php?category=<?= $categories ['category_name'] ?>"><?= $categories ['category_name'] ?></a>
                             <?php endforeach; ?>
                         </div>
@@ -86,23 +97,17 @@ $artCat = getArtCat();
 
 
 
-<?php foreach ($artCat as $items): ?>
-<div class="artFus row ">
-<div class="Art-fus col-md-4">
-
-    <div class="card">
-        <div class="card-body">
-            <h2><?= $items['Title'] ?></h2>
-            <p><?= $items['Content'] ?></p>
-            <a href="article.php?id=<?= $items['ID'] ?>">Lire la suite</a>
-        </div>
-    </div>
-</div>
-<?php endforeach; ?>
-
-
-
-
+<?php foreach($artCategory as $items):?>
+                        <div class="card-deck p-3 shadow mb-4" style="border-radius: 2em;background-color: #fefefe">
+                            <div class="card-body">
+                                <h4 class="card-title"><?= $items['Title'] ?></h4>
+                                <p class="card-text"><?= $items['Content'] ?></p>
+                                <div class="card-footer">
+                                    <small class="text-muted">Date de création : <?= $items['createdAT'] ?></small>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
 
 
 

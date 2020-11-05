@@ -41,12 +41,12 @@ function getCategory() {
 
 }
 
-function getArtCat()
+/*function getArtCat()
 {
+
     $bdd = pdo();
-
-    $query = $bdd->prepare("SELECT * FROM article INNER JOIN category ON article.ID = category.category_name");
-
-    $query->execute();
-    return $query->fetchAll();
-}
+    $category = "SELECT * FROM article INNER JOIN category WHERE Catgeory_ID = ($_GET[category_name])";
+    $req = $bdd->prepare($category);
+    $req->execute();
+    $req->fetch();
+}*/

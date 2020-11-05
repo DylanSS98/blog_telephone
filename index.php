@@ -7,6 +7,9 @@ $category = getCategory();
 
 
 
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
@@ -57,7 +60,7 @@ $category = getCategory();
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <?php foreach ($category as $categories): ?>
-                            <a class="dropdown-item" href="category.php?category=<?= $categories ['category_name'] ?>"><?= $categories ['category_name'] ?></a>
+                            <a class="dropdown-item" href="category.php?category=<?= $categories['category_name'] ?>"><?= $categories['category_name'] ?></a>
                             <?php endforeach; ?>
                         </div>
                     </li>

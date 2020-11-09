@@ -64,7 +64,6 @@ if(isset($_GET['category']))
                     </svg></a>
                 <a class="nav-link active" href="#">Accueil <span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="aPropos.html">A propos de nous</a>
-                <a class="nav-link" href="nouveaute.html">Nouveautés</a>
             </div>
 
             <!--Sélection telephones-->
@@ -103,7 +102,7 @@ if(isset($_GET['category']))
                                 <h4 class="card-title"><?= $items['Title'] ?></h4>
                                 <p class="card-text"><?= $items['Content'] ?></p>
                                 <div class="card-footer">
-                                    <small class="text-muted">Date de création : <?= $items['createdAT'] ?></small>
+                                    <small class="text-muted">Date de création : <?= $items['CreatedAT'] ?></small>
                                 </div>
                             </div>
                         </div>

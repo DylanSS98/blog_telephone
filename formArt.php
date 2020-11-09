@@ -1,24 +1,24 @@
 <?php
 $pdo = new PDO('mysql:dbname=blog_telephone;host=127.0.0.1', 'root', '', [
-PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
 // si j ai bien poster un truc dand l article
 if(isset($_POST['Title'])){
 
-if(isset($_POST['Title']) && isset($_POST['Content'])){
+    if(isset($_POST['Title']) && isset($_POST['Content'])){
 
-$titre = $_POST['Title'];
-$contenu = $_POST['Content'];
+        $titre = $_POST['Title'];
+        $contenu = $_POST['Content'];
 
-$ins = $pdo->prepare("INSERT INTO article (Title,Content) VALUES (:title, :contenu)");
+        $ins = $pdo->prepare("INSERT INTO article (Title,Content) VALUES (:title, :contenu)");
 
-$ins->bindParam(':title', $titre);
-$ins->bindParam(':contenu', $contenu);
+        $ins->bindParam(':title', $titre);
+        $ins->bindParam(':contenu', $contenu);
 
 //bindParam assigne mieu la valeur//
-$ins->execute();
+        $ins->execute();
 
-}}
+    }}
 ?>
 
 

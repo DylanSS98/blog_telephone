@@ -46,7 +46,7 @@ $category = getCategory();
                 </a>
                 <a class="nav-link active" href="index.php">Accueil <span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="aPropos.html">A propos de nous</a>
-                <a class="nav-link" href="nouveaute.html">Nouveautés</a>
+
             </div>
             <!--Sélection telephones-->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
